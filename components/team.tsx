@@ -3,7 +3,7 @@ import { Mail } from "lucide-react"
 
 const therapists = [
   {
-    name: "Mgr. Anna Nováková",
+    name: "Mgr. Jitka Marelová",
     role: "Dramaterapeutka, zakladatelka",
     bio: "Věnuje se dramaterapii metodou DvT od roku 2015. Pracuje s dospělými klienty individuálně i ve skupinách. Specializuje se na práci s úzkostmi a vztahovými tématy.",
     email: "anna@playspace.cz",
