@@ -8,8 +8,8 @@ const _inter = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-inter'
 const _carlito = Carlito({ weight: ['400', '700'], subsets: ['latin', 'latin-ext'], variable: '--font-carlito' })
 
 export const metadata: Metadata = {
-  title: 'PlaySpace | Prostor pro terapii a dramaterapii DvT v Praze',
-  description: 'PlaySpace je terapeutický prostor v Praze na Želivského. Nabízíme dramaterapii metodou DvT a pronájem prostor pro terapeuty a lektory.',
+  title: 'PlaySpace5 | Pronájem terapeutického prostoru v Praze 3',
+  description: 'PlaySpace5 je sdílený terapeutický prostor pro dramaterapii, pohyb a setkávání u metra Želivského v Praze 3. Nabízíme pronájem prostoru po hodinách, na celý den i pravidelně.',
 }
 
 export default function RootLayout({

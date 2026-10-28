@@ -10,25 +10,25 @@
 
 @layer base {
   :root {
-    --background: 40 25% 96%;
+    --background: 40 33% 97%;
     --foreground: 150 10% 15%;
-    --card: 40 20% 93%;
+    --card: 38 30% 92%;
     --card-foreground: 150 10% 15%;
-    --popover: 40 25% 96%;
+    --popover: 40 33% 97%;
     --popover-foreground: 150 10% 15%;
-    --primary: 150 25% 25%;
-    --primary-foreground: 40 25% 96%;
+    --primary: 160 14% 30%;
+    --primary-foreground: 40 33% 97%;
     --secondary: 35 20% 88%;
     --secondary-foreground: 150 10% 15%;
     --muted: 35 15% 90%;
-    --muted-foreground: 150 5% 45%;
-    --accent: 30 40% 55%;
-    --accent-foreground: 40 25% 96%;
+    --muted-foreground: 150 5% 38%;
+    --accent: 28 45% 36%;
+    --accent-foreground: 40 33% 97%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 35 15% 82%;
     --input: 35 15% 82%;
-    --ring: 150 25% 25%;
+    --ring: 160 14% 30%;
     --radius: 0.375rem;
   }
 }
@@ -42,5 +42,15 @@
   }
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background rounded-sm;
   }
 }
